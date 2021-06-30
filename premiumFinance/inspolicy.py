@@ -6,7 +6,8 @@ from os import path
 import matplotlib.pyplot as plt
 from scipy import optimize
 from typing import Any, List, Optional, Union
-from numba import njit
+
+# from numba import njit
 
 from premiumFinance.constants import DATA_FOLDER
 from premiumFinance.insured import Insured
